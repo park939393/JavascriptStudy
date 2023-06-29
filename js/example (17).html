@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>123</title>
+     <script>
+      function test(){
+         try{
+            alert('A위치입니다.')
+            throw "예외 강제 발생"
+         }catch(exception){
+            alert('B의 위치입니다')
+            return
+         }finally{
+            alert('C의 위치입니다')
+         }
+         
+      }
+      test()
+     </script>
+      
+   </head>
+   <body>
+   
+   </body>
+</html>
